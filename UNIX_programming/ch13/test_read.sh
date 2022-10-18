@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# read user input
+#
+read x
+echo "x: $x"
+
+read x y
+echo "x: $x"
+echo "y: $y"
+
+read -p "Input: "
+echo "input: $REPLY"
