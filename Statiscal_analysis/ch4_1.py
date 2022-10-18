@@ -28,7 +28,7 @@ plt.title('height(cm) and weight(kg)')
 plt.show()
 
 # import os
-# os.chdir("D:\\JIYEONG\\Study\\static_analysis")
+# os.chdir("")
 # os.getcwd()
 
 # import pandas as pd
