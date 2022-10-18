@@ -6,7 +6,7 @@ from matplotlib import font_manager, rc
 import matplotlib.pyplot as plt
 import numpy as np
 
-os.chdir("D:\\JIYEONG\\Study\\static_analysis")
+os.chdir("")
 os.getcwd()
 
 #------------ data input --------------------
