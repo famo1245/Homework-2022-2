@@ -8,3 +8,5 @@ Data_communication == 데이터 통신
 Database == 데이터베이스
 
 UNIX_programming == 유닉스 프로그래밍
+
+Statiscal_analysis == 통계적 분석
