@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-os.chdir("D:\\JIYEONG\\Study\\static_analysis")
+os.chdir("")
 os.getcwd()
 
 
