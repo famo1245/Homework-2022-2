@@ -1,5 +1,5 @@
 import os
-os.chdir("D:\\JIYEONG\\Study\\static_analysis")
+os.chdir("")
 os.getcwd()
 
 # 한글 입력
