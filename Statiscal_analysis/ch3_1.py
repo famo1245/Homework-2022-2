@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-os.chdir("D:\\JIYEONG\\Study\\static_analysis")
+os.chdir("")
 os.getcwd()
 
 drink = np.array([101.8, 101.5, 101.8, 102.6, 101, 96.8, 102.4, 100, 98.8, 98.1,
