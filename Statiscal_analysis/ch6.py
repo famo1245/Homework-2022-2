@@ -7,7 +7,7 @@ import os
 import matplotlib.pyplot as plt 
 
 
-os.chdir("D:\\JIYEONG\\Study\\static_analysis")
+os.chdir("")
 os.getcwd()
 
 
