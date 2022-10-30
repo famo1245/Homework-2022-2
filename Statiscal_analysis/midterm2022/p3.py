@@ -1,4 +1,3 @@
-# 김지영 201810923
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
