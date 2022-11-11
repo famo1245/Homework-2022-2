@@ -1,0 +1,79 @@
+
+소스 코드 생성
+
+프리프로세서 사용
+Preprocessing code: a.c
+Generating a new code: preprocessed_a.c
+Preprocessing code: b.c
+Generating a new code: preprocessed_b.c
+Preprocessing code: c.c
+Generating a new code: preprocessed_c.c
+
+컴파일러 사용
+Compiling code: preprocessed_a.c
+Generating object code: preprocessed_a.obj
+Compiling code: preprocessed_b.c
+Generating object code: preprocessed_b.obj
+Compiling code: preprocessed_c.c
+Generating object code: preprocessed_c.obj
+
+링커 사용
+Linking
+preprocessed_a.obj
+preprocessed_b.obj
+preprocessed_c.obj
+
+실행
+Exe file name: main.exe
+Linked files:
+preprocessed_a.obj
+preprocessed_b.obj
+preprocessed_c.obj
+
+IDE 사용
+
+IDE에서 소스 코드 배열을 이용해서 빌드 후 실행
+Preprocessing code: a.c
+Generating a new code: preprocessed_a.c
+Compiling code: preprocessed_a.c
+Generating object code: preprocessed_a.obj
+Preprocessing code: b.c
+Generating a new code: preprocessed_b.c
+Compiling code: preprocessed_b.c
+Generating object code: preprocessed_b.obj
+Preprocessing code: c.c
+Generating a new code: preprocessed_c.c
+Compiling code: preprocessed_c.c
+Generating object code: preprocessed_c.obj
+Linking
+preprocessed_a.obj
+preprocessed_b.obj
+preprocessed_c.obj
+Exe file name: ArrayProject.exe
+Linked files:
+preprocessed_a.obj
+preprocessed_b.obj
+preprocessed_c.obj
+
+IDE에서 소스 코드 리스트를 이용해서 빌드 후 실행
+Preprocessing code: a.c
+Generating a new code: preprocessed_a.c
+Compiling code: preprocessed_a.c
+Generating object code: preprocessed_a.obj
+Preprocessing code: b.c
+Generating a new code: preprocessed_b.c
+Compiling code: preprocessed_b.c
+Generating object code: preprocessed_b.obj
+Preprocessing code: c.c
+Generating a new code: preprocessed_c.c
+Compiling code: preprocessed_c.c
+Generating object code: preprocessed_c.obj
+Linking
+preprocessed_a.obj
+preprocessed_b.obj
+preprocessed_c.obj
+Exe file name: ListProject.exe
+Linked files:
+preprocessed_a.obj
+preprocessed_b.obj
+preprocessed_c.obj
