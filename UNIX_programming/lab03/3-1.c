@@ -1,3 +1,4 @@
+// open()함수 O_CREAT 예제
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
