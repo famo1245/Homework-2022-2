@@ -14,7 +14,9 @@ public class MySQLJDBC {
 
 			//Open a connection
 			System.out.println("Connecting to database...");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "famo1245");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost/mydb?" +
+							   "useUnicode=true&useJDBCCompliantTimezoneShift" +
+							   "=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "password");
 
 			//Execute a query
 			stmt = conn.createStatement();
