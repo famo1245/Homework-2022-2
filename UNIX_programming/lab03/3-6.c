@@ -1,3 +1,4 @@
+// dirent 구조체 사용 예제
 #include <dirent.h>
 #include <stdlib.h>
 #include <stdio.h>
