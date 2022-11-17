@@ -22,7 +22,7 @@ public class MovieDAO {
             //Open a connection
             connection = DriverManager.getConnection("jdbc:mysql://localhost/mydb?useUnicode=" +
                     "true&useJDBCCompliantTimezoneShift=true&use" +
-                    "LegacyDatetimeCode=false&serverTimezone=UTC", "root", "famo1245");
+                    "LegacyDatetimeCode=false&serverTimezone=UTC", "root", "password");
 
             //Execute a query
             stmt = connection.createStatement();
