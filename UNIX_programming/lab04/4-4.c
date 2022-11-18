@@ -17,7 +17,7 @@ int main(void) {
 		printf("Parent %d waits child %d\n", (int)getpid(), (int)pid);
 		wait(&status);
 		printf("Child's exit status = %x\n", status);
-		printf("Child's exit status = %\n", status >> 8);
+		printf("Child's exit status = %d\n", status >> 8);
 	}
 	else {
 		for(i = 0; i < 5; i++) {
