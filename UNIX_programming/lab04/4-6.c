@@ -1,3 +1,8 @@
+/*
+4-5.c에서 parent process와
+child process의 역할을 바꾸기
+구현이 어려운 이유 마지막 주석
+*/
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <stdio.h>
