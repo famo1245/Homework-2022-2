@@ -3,7 +3,7 @@ import pymysql
 # Connection
 con = pymysql.connect(host='localhost',
                       user='root',
-                      password='famo1245',
+                      password='root',
                       db='moviedb',
                       charset='utf8')
 
@@ -11,7 +11,7 @@ cursorObject = con.cursor()
 print("connect successful!!")
 
 # Read Data file
-fp = open("D:\\Jiyeong\\Study\\Database\\week12\\title_data.txt", "r", encoding='UTF-8')
+fp = open("C:\\data\\title_data.txt", "r", encoding='UTF-8')
 curNum = 0
 
 # Read each line from datafile and insert it to MovieTitle
