@@ -1,0 +1,34 @@
+drop database moviedb;
+create database moviedb;
+use moviedb;
+
+create table MovieTitle_1 (
+    tconst char(30),
+    titleType char(255),
+    primaryTitle char(255),
+    originalTitle char(255),
+    isAdult char(4),
+    startYear char(4),
+    endYear char(4),
+    runtimeMinutes char(10),
+    genres char(200),
+    primary key (tconst));
+
+create index idx_primaryTitle on MovieTitle_1(primaryTitle);
+--create index idx_originalTitle on MovieTitle_1(originalTitle) USING Hash;	--Mysql에서는 Hash를 지원 안함
+create index idx_genres on MovieTitle_1(genres);
+
+create table MovieTitle_2 (
+    tconst char(30),
+    titleType char(255),
+    primaryTitle char(255),
+    originalTitle char(255),
+    isAdult char(4),
+    startYear char(4),
+    endYear char(4),
+    runtimeMinutes char(10),
+    genres char(200),
+    primary key (tconst));
+    
+select count(*) from MovieTitle_1;
+select count(*) from MovieTitle_2;
