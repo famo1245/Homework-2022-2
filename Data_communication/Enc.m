@@ -1,12 +1,16 @@
 function result = Enc(N)
 
+% Generator
 G = [1 0 1 0 0;
      0 1 1 1 1];
+
+% Processing input
 Input = [];
 for i=1:2:length(N)
     Input = [Input; str2num(N(i)) str2num(N(i+1))];
 end
 
+% make codeword
 C = [];
 for i=1:length(Input(:,1))
     bit1 = [];
