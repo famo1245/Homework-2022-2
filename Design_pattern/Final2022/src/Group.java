@@ -44,12 +44,12 @@ public class Group implements Selectable {
 
     @Override
     public boolean isSelected(int x, int y) {   // 구현 못함
-        boolean selected = true;
         for(Shape s : shapes) {
-            selected = (selected && s.isSelected(x, y));
+            if(s.isSelected(x,y))
+                return true;
         }
 
-        return selected;
+        return false;
     }
 
     @Override
