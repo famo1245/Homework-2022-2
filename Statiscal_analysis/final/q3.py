@@ -1,10 +1,9 @@
 # 기말고사 실습 3번문제
 #학번 , 이름을 출력하세요
+# 미해결 문제
 import numpy as np
 from scipy import stats
 import math
-
-print('학번 : 201810923    이름 : 김지영 ')
 
 x = np.array([12,29,16,37,28,15])
 o = np.array([10,28,17,35,25,16])
