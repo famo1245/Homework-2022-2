@@ -2,7 +2,6 @@
 #학번 , 이름을 출력하세요
 from scipy import stats
 
-print('학번 : 201810923    이름 : 김지영 ')
 mean = 70
 s = 8
 zf = (58-mean)/s
