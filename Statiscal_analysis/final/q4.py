@@ -4,7 +4,6 @@ import numpy as np
 import math
 from scipy import stats
 
-print('학번 : 201810923    이름 : 김지영 ')
 birth = np.array([55,29,26,41])
 rate = np.array([0.4,0.2,0.2,0.2])
 n = sum(birth)
