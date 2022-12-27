@@ -3,7 +3,6 @@
 import math
 from scipy import stats
 
-print('학번 : 201810923    이름 : 김지영 ')
 n = 5
 x_bar = 115
 mean = 120
